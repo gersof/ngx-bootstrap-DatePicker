@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  public bsValue: any ;
+  public bsRangeValue: any = [new Date(2017, 7, 4), new Date(2017, 7, 20)];
+    title = 'app';
 }
